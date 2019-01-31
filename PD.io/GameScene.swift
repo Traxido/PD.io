@@ -15,7 +15,7 @@ class GameScene: SKScene {
     
     override func sceneDidLoad() {
         playerCar = SKSpriteNode.init(imageNamed: "sheriff")
-        playerCar.size = CGSize(width: 80, height: 120)
+        playerCar.size = CGSize(width: 64, height: 64)
         playerCar.position = CGPoint(x: self.frame.width/2, y: self.frame.height/2)
         playerCar.zPosition = 0
         self.addChild(playerCar)
