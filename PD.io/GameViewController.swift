@@ -19,7 +19,7 @@ class GameViewController: UIViewController {
             let scene = GameScene(size: view.bounds.size)
             scene.scaleMode = .resizeFill
             view.ignoresSiblingOrder = true
-            scene.backgroundColor = UIColor.gray
+            scene.backgroundColor = UIColor(red:0.55, green:0.56, blue:0.58, alpha:1.0)
             view.presentScene(scene)
         }
     }
